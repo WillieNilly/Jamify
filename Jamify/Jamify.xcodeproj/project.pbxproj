@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FFB84EA269CE4B100397E27 /* JamifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB84E9269CE4B100397E27 /* JamifyApp.swift */; };
+		6FFB84EC269CE4B100397E27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB84EB269CE4B100397E27 /* ContentView.swift */; };
+		6FFB84EE269CE4B500397E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB84ED269CE4B500397E27 /* Assets.xcassets */; };
+		6FFB84F1269CE4B500397E27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB84F0269CE4B500397E27 /* Preview Assets.xcassets */; };
+		6FFB84FC269CE4B500397E27 /* JamifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB84FB269CE4B500397E27 /* JamifyTests.swift */; };
+		6FFB8507269CE4B500397E27 /* JamifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB8506269CE4B500397E27 /* JamifyUITests.swift */; };
+		6FFB8518269CE5E900397E27 /* ios-sdk-1.2.2 2 in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB8517269CE5E900397E27 /* ios-sdk-1.2.2 2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FFB84F8269CE4B500397E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FFB84DE269CE4B100397E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFB84E5269CE4B100397E27;
+			remoteInfo = Jamify;
+		};
+		6FFB8503269CE4B500397E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FFB84DE269CE4B100397E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFB84E5269CE4B100397E27;
+			remoteInfo = Jamify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FFB84E6269CE4B100397E27 /* Jamify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFB84E9269CE4B100397E27 /* JamifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamifyApp.swift; sourceTree = "<group>"; };
+		6FFB84EB269CE4B100397E27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FFB84ED269CE4B500397E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FFB84F0269CE4B500397E27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FFB84F2269CE4B500397E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFB84F7269CE4B500397E27 /* JamifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFB84FB269CE4B500397E27 /* JamifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamifyTests.swift; sourceTree = "<group>"; };
+		6FFB84FD269CE4B500397E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFB8502269CE4B500397E27 /* JamifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFB8506269CE4B500397E27 /* JamifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamifyUITests.swift; sourceTree = "<group>"; };
+		6FFB8508269CE4B500397E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFB8517269CE5E900397E27 /* ios-sdk-1.2.2 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ios-sdk-1.2.2 2"; path = "../ios-sdk-1.2.2 2"; sourceTree = "<group>"; };
+		6FFB851F269CEA4F00397E27 /* Jamify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jamify-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FFB84E3269CE4B100397E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFB84F4269CE4B500397E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFB84FF269CE4B500397E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FFB84DD269CE4B100397E27 = {
+			isa = PBXGroup;
+			children = (
+				6FFB8517269CE5E900397E27 /* ios-sdk-1.2.2 2 */,
+				6FFB84E8269CE4B100397E27 /* Jamify */,
+				6FFB84FA269CE4B500397E27 /* JamifyTests */,
+				6FFB8505269CE4B500397E27 /* JamifyUITests */,
+				6FFB84E7269CE4B100397E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FFB84E7269CE4B100397E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FFB84E6269CE4B100397E27 /* Jamify.app */,
+				6FFB84F7269CE4B500397E27 /* JamifyTests.xctest */,
+				6FFB8502269CE4B500397E27 /* JamifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FFB84E8269CE4B100397E27 /* Jamify */ = {
+			isa = PBXGroup;
+			children = (
+				6FFB84E9269CE4B100397E27 /* JamifyApp.swift */,
+				6FFB84EB269CE4B100397E27 /* ContentView.swift */,
+				6FFB84ED269CE4B500397E27 /* Assets.xcassets */,
+				6FFB84F2269CE4B500397E27 /* Info.plist */,
+				6FFB84EF269CE4B500397E27 /* Preview Content */,
+				6FFB851F269CEA4F00397E27 /* Jamify-Bridging-Header.h */,
+			);
+			path = Jamify;
+			sourceTree = "<group>";
+		};
+		6FFB84EF269CE4B500397E27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6FFB84F0269CE4B500397E27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FFB84FA269CE4B500397E27 /* JamifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FFB84FB269CE4B500397E27 /* JamifyTests.swift */,
+				6FFB84FD269CE4B500397E27 /* Info.plist */,
+			);
+			path = JamifyTests;
+			sourceTree = "<group>";
+		};
+		6FFB8505269CE4B500397E27 /* JamifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FFB8506269CE4B500397E27 /* JamifyUITests.swift */,
+				6FFB8508269CE4B500397E27 /* Info.plist */,
+			);
+			path = JamifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FFB84E5269CE4B100397E27 /* Jamify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFB850B269CE4B500397E27 /* Build configuration list for PBXNativeTarget "Jamify" */;
+			buildPhases = (
+				6FFB84E2269CE4B100397E27 /* Sources */,
+				6FFB84E3269CE4B100397E27 /* Frameworks */,
+				6FFB84E4269CE4B100397E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jamify;
+			productName = Jamify;
+			productReference = 6FFB84E6269CE4B100397E27 /* Jamify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FFB84F6269CE4B500397E27 /* JamifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFB850E269CE4B500397E27 /* Build configuration list for PBXNativeTarget "JamifyTests" */;
+			buildPhases = (
+				6FFB84F3269CE4B500397E27 /* Sources */,
+				6FFB84F4269CE4B500397E27 /* Frameworks */,
+				6FFB84F5269CE4B500397E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFB84F9269CE4B500397E27 /* PBXTargetDependency */,
+			);
+			name = JamifyTests;
+			productName = JamifyTests;
+			productReference = 6FFB84F7269CE4B500397E27 /* JamifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FFB8501269CE4B500397E27 /* JamifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFB8511269CE4B500397E27 /* Build configuration list for PBXNativeTarget "JamifyUITests" */;
+			buildPhases = (
+				6FFB84FE269CE4B500397E27 /* Sources */,
+				6FFB84FF269CE4B500397E27 /* Frameworks */,
+				6FFB8500269CE4B500397E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFB8504269CE4B500397E27 /* PBXTargetDependency */,
+			);
+			name = JamifyUITests;
+			productName = JamifyUITests;
+			productReference = 6FFB8502269CE4B500397E27 /* JamifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FFB84DE269CE4B100397E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6FFB84E5269CE4B100397E27 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6FFB84F6269CE4B500397E27 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6FFB84E5269CE4B100397E27;
+					};
+					6FFB8501269CE4B500397E27 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6FFB84E5269CE4B100397E27;
+					};
+				};
+			};
+			buildConfigurationList = 6FFB84E1269CE4B100397E27 /* Build configuration list for PBXProject "Jamify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FFB84DD269CE4B100397E27;
+			productRefGroup = 6FFB84E7269CE4B100397E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FFB84E5269CE4B100397E27 /* Jamify */,
+				6FFB84F6269CE4B500397E27 /* JamifyTests */,
+				6FFB8501269CE4B500397E27 /* JamifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FFB84E4269CE4B100397E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFB84F1269CE4B500397E27 /* Preview Assets.xcassets in Resources */,
+				6FFB8518269CE5E900397E27 /* ios-sdk-1.2.2 2 in Resources */,
+				6FFB84EE269CE4B500397E27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFB84F5269CE4B500397E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFB8500269CE4B500397E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FFB84E2269CE4B100397E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFB84EC269CE4B100397E27 /* ContentView.swift in Sources */,
+				6FFB84EA269CE4B100397E27 /* JamifyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFB84F3269CE4B500397E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFB84FC269CE4B500397E27 /* JamifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFB84FE269CE4B500397E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFB8507269CE4B500397E27 /* JamifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FFB84F9269CE4B500397E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FFB84E5269CE4B100397E27 /* Jamify */;
+			targetProxy = 6FFB84F8269CE4B500397E27 /* PBXContainerItemProxy */;
+		};
+		6FFB8504269CE4B500397E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FFB84E5269CE4B100397E27 /* Jamify */;
+			targetProxy = 6FFB8503269CE4B500397E27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FFB8509269CE4B500397E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FFB850A269CE4B500397E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FFB850C269CE4B500397E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jamify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jamify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qaz.Jamify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jamify.Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FFB850D269CE4B500397E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jamify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jamify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qaz.Jamify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jamify.Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FFB850F269CE4B500397E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qaz.JamifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jamify.app/Jamify";
+			};
+			name = Debug;
+		};
+		6FFB8510269CE4B500397E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qaz.JamifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jamify.app/Jamify";
+			};
+			name = Release;
+		};
+		6FFB8512269CE4B500397E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qaz.JamifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jamify;
+			};
+			name = Debug;
+		};
+		6FFB8513269CE4B500397E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qaz.JamifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jamify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FFB84E1269CE4B100397E27 /* Build configuration list for PBXProject "Jamify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFB8509269CE4B500397E27 /* Debug */,
+				6FFB850A269CE4B500397E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFB850B269CE4B500397E27 /* Build configuration list for PBXNativeTarget "Jamify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFB850C269CE4B500397E27 /* Debug */,
+				6FFB850D269CE4B500397E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFB850E269CE4B500397E27 /* Build configuration list for PBXNativeTarget "JamifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFB850F269CE4B500397E27 /* Debug */,
+				6FFB8510269CE4B500397E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFB8511269CE4B500397E27 /* Build configuration list for PBXNativeTarget "JamifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFB8512269CE4B500397E27 /* Debug */,
+				6FFB8513269CE4B500397E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FFB84DE269CE4B100397E27 /* Project object */;
+}
