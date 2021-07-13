@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BAC8288269D1ED000C45135 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAC8287269D1ED000C45135 /* SpotifyiOS.framework */; };
+		1BAC8289269D1ED000C45135 /* SpotifyiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAC8287269D1ED000C45135 /* SpotifyiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6FFB84EA269CE4B100397E27 /* JamifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB84E9269CE4B100397E27 /* JamifyApp.swift */; };
 		6FFB84EC269CE4B100397E27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB84EB269CE4B100397E27 /* ContentView.swift */; };
 		6FFB84EE269CE4B500397E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB84ED269CE4B500397E27 /* Assets.xcassets */; };
 		6FFB84F1269CE4B500397E27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB84F0269CE4B500397E27 /* Preview Assets.xcassets */; };
 		6FFB84FC269CE4B500397E27 /* JamifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB84FB269CE4B500397E27 /* JamifyTests.swift */; };
 		6FFB8507269CE4B500397E27 /* JamifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB8506269CE4B500397E27 /* JamifyUITests.swift */; };
-		6FFB8518269CE5E900397E27 /* ios-sdk-1.2.2 2 in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB8517269CE5E900397E27 /* ios-sdk-1.2.2 2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1BAC828A269D1ED100C45135 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1BAC8289269D1ED000C45135 /* SpotifyiOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1BAC8287269D1ED000C45135 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
 		6FFB84E6269CE4B100397E27 /* Jamify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFB84E9269CE4B100397E27 /* JamifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamifyApp.swift; sourceTree = "<group>"; };
 		6FFB84EB269CE4B100397E27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +62,6 @@
 		6FFB8502269CE4B500397E27 /* JamifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFB8506269CE4B500397E27 /* JamifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamifyUITests.swift; sourceTree = "<group>"; };
 		6FFB8508269CE4B500397E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FFB8517269CE5E900397E27 /* ios-sdk-1.2.2 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ios-sdk-1.2.2 2"; path = "../ios-sdk-1.2.2 2"; sourceTree = "<group>"; };
 		6FFB851F269CEA4F00397E27 /* Jamify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jamify-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAC8288269D1ED000C45135 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,14 +91,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BAC8286269D1ED000C45135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BAC8287269D1ED000C45135 /* SpotifyiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6FFB84DD269CE4B100397E27 = {
 			isa = PBXGroup;
 			children = (
-				6FFB8517269CE5E900397E27 /* ios-sdk-1.2.2 2 */,
 				6FFB84E8269CE4B100397E27 /* Jamify */,
 				6FFB84FA269CE4B500397E27 /* JamifyTests */,
 				6FFB8505269CE4B500397E27 /* JamifyUITests */,
 				6FFB84E7269CE4B100397E27 /* Products */,
+				1BAC8286269D1ED000C45135 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +169,7 @@
 				6FFB84E2269CE4B100397E27 /* Sources */,
 				6FFB84E3269CE4B100397E27 /* Frameworks */,
 				6FFB84E4269CE4B100397E27 /* Resources */,
+				1BAC828A269D1ED100C45135 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FFB84F1269CE4B500397E27 /* Preview Assets.xcassets in Resources */,
-				6FFB8518269CE5E900397E27 /* ios-sdk-1.2.2 2 in Resources */,
 				6FFB84EE269CE4B500397E27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +450,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Jamify/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Jamify/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,6 +477,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Jamify/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Jamify/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
